@@ -1,0 +1,292 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/*NavBar*/
+
+.page-brand
+{
+    margin-left: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-brand a
+{
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+#nav-options
+{
+    margin-left: 20vw;
+    width: 60vw;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+#nav-options li a
+{
+    font-size: 2rem;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+/*Sección principal*/
+
+.first-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/foto-gratis/caballeros-castillo-medieval_456031-65.jpg?w=1380&t=st=1647652707~exp=1647653307~hmac=9ab3400f8df5bbdc759c6d946ecbee4f1baba5495474c8997b05ec134af4f110");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    row-gap: 10vh;
+}
+.btnRegistro
+{
+    margin-left: 10vw;
+    font-size: 4.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+    background-color:#FF7A48;
+    box-shadow: inset 0 0 0 0 ;
+    transition: ease-out 0.3s;
+    outline: none;
+    margin-bottom: 40vh;
+}
+.btnRegistro:hover
+{
+    box-shadow: inset 45vw 0 0 0 lightblue;
+    border: 4px solid black;
+    cursor: pointer;
+    color: black;
+}
+.main-info h1
+{
+    margin-left: 10vw;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+/*Seccion de Historia*/
+
+.second-section
+{
+    display: inline-flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-container
+{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.story-container
+{
+    width: 80%;
+    height: 80%;
+}
+.story-container h1
+{
+    margin-top: 10vh;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.story-container h3
+{
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+.right-container
+{
+    display: inline-block;
+    background-image: url("https://miro.medium.com/max/1838/1*eArSwSgj-jvluOcQmtAz1w.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+/*Seccion de Bazar*/
+
+.third-section
+{
+    display: inline-flex;
+    width: 100%;
+    height: 100vh;
+}
+.left-container2
+{
+    display: inline-block;
+    background-image: url("https://wallpaperaccess.com/full/4319078.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+.right-container2
+{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.bazar-container
+{
+    width: 80%;
+    height: 80%;
+}
+.bazar-container h1
+{
+    margin-top: 5vh;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.bazar-container h3
+{
+    font-size: 2.5rem;
+    text-align: justify;
+}
+.btnMarket
+{
+    font-size: 3.5rem;
+    font-weight: bold;
+    border: 4px solid black;
+    border-radius: 4px;
+    color: rgb(41, 37, 37);
+    background-color: #c6b1c9;
+    box-shadow: inset 0 0 0 0 ;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+.btnMarket:hover
+{
+    box-shadow: inset 45vw 0 0 0 lightblue;
+    border: 4px solid black;
+    cursor: pointer;
+    color: black;
+}
+
+@media (max-width: 900px) {
+
+    /*Sección principal*/
+
+    .btnRegistro
+    {
+        margin-left: 10vw;
+        font-size: 3.5rem;
+        font-weight: bold;
+        margin-bottom: 40vh;
+    }
+    .main-info h1
+    {
+        margin-left: 10vw;
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    
+    /*Seccion de Historia*/
+
+    .story-container h1
+    {
+        margin-top: 10vh;
+        font-size: 3rem;
+    }
+    .story-container h3
+    {
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    /*Seccion de Bazar*/
+
+    .bazar-container h1
+    {
+        font-size: 3rem;
+    }
+    .bazar-container h3
+    {
+        font-size: 2rem;
+        text-align: justify;
+    }
+    .btnMarket
+    {
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    /*Sección principal*/
+
+    .btnRegistro
+    {
+        margin-left: 10vw;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 40vh;
+    }
+    .main-info h1
+    {
+        margin-left: 10vw;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    /*Seccion de Historia*/
+
+    .story-container h1
+    {
+        margin-top: 10vh;
+        font-size: 2.5rem;
+    }
+    .story-container h3
+    {
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    /*Seccion de Bazar*/
+
+    .bazar-container h1
+    {
+        font-size: 2.5rem;
+    }
+    .bazar-container h3
+    {
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    .btnMarket
+    {
+        font-size: 2.5rem;
+    }
+
+}

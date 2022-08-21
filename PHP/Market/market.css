@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/*NavBar*/
+.page-brand
+{
+    margin-left: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-brand a
+{
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+#nav-options
+{
+    margin-left: 10vw;
+    width: 60vw;
+    display: inline-flex;
+}
+#nav-options li a
+{
+    margin-left: 10vw;
+    font-size: 2rem;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+/*Seccion Market*/
+body
+{
+    background-image: url("https://wallpaperaccess.com/full/4319078.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.market-container
+{
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    max-width: 95vw;
+    height: 85vh;
+    max-height: 85vh;
+    margin-top: 12vh;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.card-container
+{
+    display: inline-block;
+    margin: 7vh 4vw;
+    width: 200px;
+    border: 4px solid black;
+}
+.card-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    max-height: 80px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.card-body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 2.5rem;
+}
+
+.card-body img
+{
+    width: 100px;
+    height: 120px;
+}
+.card-footer
+{
+    display: flex;
+    flex-direction: column;
+}
+.item-values
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item-values span
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.item-values span img
+{
+    width: 30px;
+    height: 30px;
+}
+.item-info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-info p
+{
+    font-size: 1.4rem;
+}
+.item-info button
+{
+    font-size: 1.2rem;
+}
